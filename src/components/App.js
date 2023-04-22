@@ -11,10 +11,9 @@ function App() {
       You're on your own from here! Follow the deliverables; test things out in
       the browser as you write your code; and good luck!
       <Header blogName={blogData.name}/>
-      <About 
-        imageSrc = {blogData.image}
-        altText = "blog logo"
-        aboutText = {blogData.about}
+      <About
+        imageSrc={blogData.image}
+        aboutText={blogData.about}
       />
     </div>
   );
